@@ -1,0 +1,21 @@
+# macOS 系统文件
+.DS_Store
+**/.DS_Store
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Python 虚拟环境
+.venv/
+venv/
+
+# 环境变量和密钥
+.env
+.env.*
+!.env.example
+
+# 构建产物
+build/
+dist/
