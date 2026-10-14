@@ -1,0 +1,21 @@
+# Backend Dependencies for MarkItDown Extension
+# Web framework
+fastapi>=0.110.0
+uvicorn>=0.28.0
+python-multipart>=0.0.9
+
+# Deep Learning Document Classifier (Section 5.1)
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=10.0.0
+pymupdf>=1.24.0
+pypdfium2>=4.30.0
+
+# Database & Auth
+sqlalchemy>=2.0.0
+pyjwt>=2.8.0
+passlib[bcrypt]>=1.7.4
+
+# LLM & Utilities
+openai>=1.12.0
+requests>=2.31.0
