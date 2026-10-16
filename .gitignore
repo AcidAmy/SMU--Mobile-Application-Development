@@ -19,3 +19,6 @@ venv/
 # 构建产物
 build/
 dist/
+
+# SQLite 数据库
+*.db

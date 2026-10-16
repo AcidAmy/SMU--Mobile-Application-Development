@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MarkItDown - AI 文档智能转换与排版平台</title>
+  <meta name="description" content="基于 PyTorch 深度学习二分类前置动态路由的文档转 Markdown 平台，支持原生零成本高速解析与视觉大模型 OCR 增强排版。" />
+
+  <!-- Preconnect to Font & CDN sources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Syntax Highlighting Styles (GitHub Light) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" />
+
+  <!-- Core Design System CSS -->
+  <link rel="stylesheet" href="./src/css/style.css" />
+
+  <!-- Global Vendor Libraries (CDN with fallback support) -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.7.9/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@15.0.7/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+</head>
+<body>
+  <!-- Vue 3 Application Root Container -->
+  <div id="app">
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; font-family: sans-serif; color: #64748b;">
+      <div style="font-size: 28px; font-weight: 800; color: #2563eb; margin-bottom: 8px;">MarkItDown</div>
+      <div style="font-size: 14px;">正在初始化 Vue3 前端应用...</div>
+    </div>
+  </div>
+
+  <!-- ES Module Application Entrypoint -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
