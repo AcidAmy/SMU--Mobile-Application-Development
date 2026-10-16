@@ -18,8 +18,8 @@ function getInitialApiBaseUrl() {
   const port = window.location.port;
   const hostname = window.location.hostname || '127.0.0.1';
 
-  // If served on backend port (e.g. 8000), use relative /api
-  if (port === '8000') {
+  // If served on backend port (8000) or reverse proxy port (8080, 80), use relative /api
+  if (port === '8000' || port === '8080' || port === '80' || !port) {
     return '/api';
   }
 
